@@ -35,7 +35,13 @@
     </form>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <div class="row">
+        <div class="tt text-left"><span class="navbar-toggler-icon"></span></div>
+        <div class="mobile_s_up text-right">
+          <a href="#">Log In</a>
+        <a href="#">Sign Up</a>
+        </div>
+      </div>
     </button>
     <div class="collapse navbar-collapse primary_menu" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
@@ -253,27 +259,7 @@
     <div class="row">
       <!-- ===== -->
       <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0 align-items-center">
-            <div class="col-2">
-              <img src="./img/development-desktop.29e32ce.svg" alt="Web, Mobile & Software Dev">
-            </div>
-            <div class="col-9">
-              <div class="card-body p-0">
-                <select class="form-select" id="inputGroupSelect01">
-                  <option selected>Web, Mobile & Software Dev</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ===== -->
-      <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
           <div class="row g-0 align-items-center">
             <div class="col-2">
               <img src="./img/design-creative-desktop.109353b.svg" alt="Design & Creative">
@@ -281,116 +267,528 @@
             <div class="col-9">
               <div class="card-body p-0">
                 <select class="form-select" id="inputGroupSelect01">
-                  <option selected>Design & Creative</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
+                  <option selected>Web, Mobile & Software Dev</option>
                 </select>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
       <!-- ===== -->
       <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
           <div class="row g-0 align-items-center">
             <div class="col-2">
-              <img src="./img/writing-desktop.1b7ea27.svg" alt="Writing">
+              <img src="./img/engineering-architecture-desktop.85b023c.svg" alt="Design & Creative">
             </div>
             <div class="col-9">
               <div class="card-body p-0">
                 <select class="form-select" id="inputGroupSelect01">
                   <option selected>Design & Creative</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
                 </select>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>   
       <!-- ===== -->
       <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
           <div class="row g-0 align-items-center">
             <div class="col-2">
-              <img src="./img/admin-support-desktop.ff2e0d4.svg" alt="Admin Support">
+              <img src="./img/data-science-desktop.b430512.svg" alt="Design & Creative">
+            </div>
+            <div class="col-9">
+              <div class="card-body p-0">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Writing</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div> 
+      <!-- ===== -->
+      <div class="col-12">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
+          <div class="row g-0 align-items-center">
+            <div class="col-2">
+              <img src="./img/customer-service-desktop.22b35df.svg" alt="Design & Creative">
+            </div>
+            <div class="col-9">
+              <div class="card-body p-0">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Sales & Marketing</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div> 
+      <!-- ===== -->
+      <div class="col-12">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
+          <div class="row g-0 align-items-center">
+            <div class="col-2">
+              <img src="./img/admin-support-desktop.ff2e0d4.svg" alt="Design & Creative">
             </div>
             <div class="col-9">
               <div class="card-body p-0">
                 <select class="form-select" id="inputGroupSelect01">
                   <option selected>Admin Support</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
                 </select>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div> 
       <!-- ===== -->
       <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
           <div class="row g-0 align-items-center">
             <div class="col-2">
-              <img src="./img/customer-service-desktop.22b35df.svg" alt="Customer Service">
+              <img src="./img/marketing-sales-desktop.ebb7dd9.svg" alt="Design & Creative">
             </div>
             <div class="col-9">
               <div class="card-body p-0">
                 <select class="form-select" id="inputGroupSelect01">
                   <option selected>Customer Service</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
                 </select>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div> 
       <!-- ===== -->
       <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 540px;"data-toggle="modal" data-target="#exampleModal">
           <div class="row g-0 align-items-center">
             <div class="col-2">
-              <img src="./img/data-science-desktop.b430512.svg" alt="Data Science & Analytics">
+              <img src="./img/marketing-sales-desktop.ebb7dd9.svg" alt="Design & Creative">
             </div>
             <div class="col-9">
               <div class="card-body p-0">
                 <select class="form-select" id="inputGroupSelect01">
                   <option selected>Data Science & Analytics</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
                 </select>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- ===== -->
-      <div class="col-12">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0 align-items-center">
-            <div class="col-2">
-              <img src="./img/data-science-desktop.b430512.svg" alt="Data Science & Analytics">
-            </div>
-            <div class="col-9">
-              <div class="card-body p-0">
-                <select class="form-select" id="inputGroupSelect01">
-                  <option selected>Data Science & Analytics</option>
-                  <option value="1">Web, Mobile & Software</option>
-                  <option value="2">Web, Mobile</option>
-                  <option value="3">Web</option>
-                </select>
-              </div>
-            </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">What kind of Web, Mobile & Software Dev work do you need? </h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
           </div>
+          <div class="modal-body">
+            <p>Narrowing down your needs helps us match the right professionals with your job! </p>
+
+            <form action="#">
+                <div class="form-check">
+                  <label class="form-check-label" for="radio1">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Desktop Software Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio2">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Ecommerce Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio3">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> Game Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio4">
+                    <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> Mobile Development 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio5">
+                    <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5"> Product Management 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio6">
+                    <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6"> QA & Testing 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label" for="radio7">
+                    <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7"> Web & Mobile Design  
+                  </label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="pop-btn back">back</button>
+                    <button type="submit" class="pop-btn next">next</button>
+                </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
         </div>
       </div>
+    </div> 
       <!-- ===== -->
       <div class="col-12">
         <span>Don’t see what you’re looking for? <br><a href="#"> See all categories</a></span>
